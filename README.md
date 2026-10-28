@@ -47,6 +47,28 @@ The STLs are exported in their assembled position. Lay each one on the bed as fo
 | `5_track` | 9 track sections | Open side of the channel up. Tilted and curved sections need supports under the low end; use tree/organic supports and keep them out of the channel. |
 | `6_connectors` | arm, strut, junction ridge, 2 start-funnel legs | Largest flat face down. Small parts: print them with something else so they don't overheat. |
 
+## Bill of materials
+
+The 40 parts are merged into 11 STL files for ordering from a print service (also in
+[BOM.csv](BOM.csv)). All are FDM/FFF, PLA, white, 20% infill, with the service's standard
+supports. Prices are in INR. The unit price is the price for the part alone; the service charges
+a minimum of ₹200 per line, which is the line total.
+
+| # | File | Size (mm) | Volume (cm³) | Qty | Unit price | Line total |
+|---|---|---|---|---|---|---|
+| 1 | `base_with_posts.stl` | 150 × 150 × 146 | 174 | 1 | ₹904 | ₹904 |
+| 2 | `bowl_funnel_with_arm_and_strut.stl` | 68 × 77 × 38 | 14 | 1 | ₹72 | ₹200 |
+| 3 | `final_E2_to_cup.stl` | 19 × 116 × 34 | 10 | 1 | ₹51 | ₹200 |
+| 4 | `path1_lower_ramp.stl` | 56 × 40 × 24 | 3 | 1 | ₹30 | ₹200 |
+| 5 | `path2_S2.stl` | 19 × 51 × 44 | 8 | 1 | ₹40 | ₹200 |
+| 6 | `path2_S3.stl` | 91 × 19 × 49 | 10 | 1 | ₹52 | ₹200 |
+| 7 | `path2_S4.stl` | 19 × 72 × 47 | 9 | 1 | ₹46 | ₹200 |
+| 8 | `plinko_with_exit.stl` | 71 × 57 × 27 | 15 | 1 | ₹79 | ₹200 |
+| 9 | `start_funnel_with_legs.stl` | 47 × 47 × 25 | 4 | 1 | ₹30 | ₹200 |
+| 10 | `top_left_track_with_S1.stl` | 54 × 14 × 11 | 3 | 1 | ₹30 | ₹200 |
+| 11 | `top_right_path.stl` | 92 × 66 × 56 | 9 | 1 | ₹49 | ₹200 |
+| | **Total** | | **259** | **11** | | **₹2,904** |
+
 ## Assembly
 
 ### How the joints work

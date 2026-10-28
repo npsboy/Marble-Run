@@ -49,25 +49,27 @@ The STLs are exported in their assembled position. Lay each one on the bed as fo
 
 ## Bill of materials
 
-The 40 parts are merged into 11 STL files for ordering from a print service (also in
-[BOM.csv](BOM.csv)). All are FDM/FFF, PLA, white, 20% infill, with the service's standard
-supports. Prices are in INR. The unit price is the price for the part alone; the service charges
-a minimum of ₹200 per line, which is the line total.
+The 40 parts are merged into 11 STL files for ordering from [3ding.in](https://3ding.in/) (also in
+[BOM.csv](BOM.csv)), plus a strand of decorative beads that serve as the 8 mm marbles. All prints
+are FDM/FFF, PLA, white, 20% infill, with the service's standard supports. Prices are in USD at
+about ₹96.5 per \$1. 3ding.in charges a minimum of ₹200 (\$2.07) per line, so the unit price for
+small parts is that minimum, not the quoted price.
 
-| # | File | Size (mm) | Volume (cm³) | Qty | Unit price | Line total |
+| Part | What it's for | Qty | Unit price (USD) | Vendor | Link | Notes |
 |---|---|---|---|---|---|---|
-| 1 | `base_with_posts.stl` | 150 × 150 × 146 | 174 | 1 | ₹904 | ₹904 |
-| 2 | `bowl_funnel_with_arm_and_strut.stl` | 68 × 77 × 38 | 14 | 1 | ₹72 | ₹200 |
-| 3 | `final_E2_to_cup.stl` | 19 × 116 × 34 | 10 | 1 | ₹51 | ₹200 |
-| 4 | `path1_lower_ramp.stl` | 56 × 40 × 24 | 3 | 1 | ₹30 | ₹200 |
-| 5 | `path2_S2.stl` | 19 × 51 × 44 | 8 | 1 | ₹40 | ₹200 |
-| 6 | `path2_S3.stl` | 91 × 19 × 49 | 10 | 1 | ₹52 | ₹200 |
-| 7 | `path2_S4.stl` | 19 × 72 × 47 | 9 | 1 | ₹46 | ₹200 |
-| 8 | `plinko_with_exit.stl` | 71 × 57 × 27 | 15 | 1 | ₹79 | ₹200 |
-| 9 | `start_funnel_with_legs.stl` | 47 × 47 × 25 | 4 | 1 | ₹30 | ₹200 |
-| 10 | `top_left_track_with_S1.stl` | 54 × 14 × 11 | 3 | 1 | ₹30 | ₹200 |
-| 11 | `top_right_path.stl` | 92 × 66 × 56 | 9 | 1 | ₹49 | ₹200 |
-| | **Total** | | **259** | **11** | | **₹2,904** |
+| `base_with_posts.stl` | Base plate with all 20 posts and the central pole | 1 | \$9.37 | 3ding.in | [3ding.in](https://3ding.in/) | 150 x 150 x 146 mm; 174 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Print priced at \$9.37 |
+| `bowl_funnel_with_arm_and_strut.stl` | Bowl funnel with its arm and strut | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 68 x 77 x 38 mm; 14 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.75; the \$2.07 minimum per line applies |
+| `final_E2_to_cup.stl` | Final track section from E2 into the collection cup | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 19 x 116 x 34 mm; 10 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.53; the \$2.07 minimum per line applies |
+| `path1_lower_ramp.stl` | Lower ramp of path 1 | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 56 x 40 x 24 mm; 3 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.31; the \$2.07 minimum per line applies |
+| `path2_S2.stl` | Path 2 section S2 | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 19 x 51 x 44 mm; 8 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.41; the \$2.07 minimum per line applies |
+| `path2_S3.stl` | Path 2 section S3 | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 91 x 19 x 49 mm; 10 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.54; the \$2.07 minimum per line applies |
+| `path2_S4.stl` | Path 2 section S4 | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 19 x 72 x 47 mm; 9 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.48; the \$2.07 minimum per line applies |
+| `plinko_with_exit.stl` | Plinko box with its exit track | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 71 x 57 x 27 mm; 15 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.82; the \$2.07 minimum per line applies |
+| `start_funnel_with_legs.stl` | Start funnel with its two legs | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 47 x 47 x 25 mm; 4 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.31; the \$2.07 minimum per line applies |
+| `top_left_track_with_S1.stl` | Top-left track with path 2 section S1 | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 54 x 14 x 11 mm; 3 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.31; the \$2.07 minimum per line applies |
+| `top_right_path.stl` | Top-right path | 1 | \$2.07 | 3ding.in | [3ding.in](https://3ding.in/) | 92 x 66 x 56 mm; 9 cm3. FDM/FFF PLA White; Stand supports; 20% infill. Quoted \$0.51; the \$2.07 minimum per line applies |
+| 8mm decorative beads (Paradise Jewellery strands) | The marbles that run down the track | 1 | \$2.58 | Amazon | [amazon.in/dp/B0HJSWZFS9](https://www.amazon.in/dp/B0HJSWZFS9) | Rs 249. Decorative beads sold as strands; used in place of 8mm marbles. Only a few are needed |
+| **Total** | | | **\$32.65** | | | |
 
 ## Assembly
 
